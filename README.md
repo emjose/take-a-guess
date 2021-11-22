@@ -7,17 +7,15 @@
 
 </tr></table>
 
-<!-- <a href="https://github.com/emjose/***next-repo***/#header"><img src="Assets/header-right.png" alt="next" style="width: 200px;"/></a> -->
-
 <br>
 
 <p id="project-title"><p>
 
-<a href=#table-of-contents>![***repo-alt-text***](Assets/inter-030-take-a-guess.png)</a>
+<a href=#table-of-contents>![Take A Guess](Assets/inter-030-take-a-guess.png)</a>
 
 <br>
 
-<a href="https://emjose.github.io/***repo-name***/">![***repo-alt-text***](Assets/preview-***project-number***-***repo-name***.png)</a>
+<a href="https://take-a-guess.vercel.app/">![Take A Guess](Assets/preview-030-take-a-guess.png)</a>
 
 #
 
@@ -39,9 +37,11 @@
 
 ### Day 30: November 22, 2021
 
--   text
--   text
--   text
+-   To renew and reinforce my understanding of pure JavaScript, I've been taking courses about JavaScript fundamentals.
+
+-   A course I enjoyed was <a href="https://justjavascript.com/">Just JavaScript</a> by <a href="https://twitter.com/dan_abramov">Dan Abramov</a> and <a href="https://maggieappleton.com/">Maggie Appleton.</a>
+-   Another course I'm enjoying is Jonas Schmedtmann's <a href="https://www.udemy.com/course/the-complete-javascript-course/">The Complete JavaScript Course</a>, which has a project about <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">DOM</a> manipulation that is the basis of this number guessing game.
+-   In **Take A Guess**, users guess a number between 1 and 20, and the DOM is manipulated based on the nature of the guess.
 
 #
 
@@ -67,7 +67,11 @@ open index.html
 
 <a href="https://take-a-guess.vercel.app/">![Live Site](Assets/inter-live-site.png)</a>
 
-<a href="https://take-a-guess.vercel.app/">![Live Site](Assets/***project-number***-***gif-name***.gif)</a>
+<a href="https://take-a-guess.vercel.app/">![Live Site](Assets/030-guess.gif)</a>
+
+• The user is informed if their guess is correct or incorrect.
+
+• Correct guesses set the high score, while incorrect guesses decrease the score.
 
 #
 
@@ -75,13 +79,15 @@ open index.html
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>
 
--   #### [**_alt-text_**](***URL***)
+-   #### [Google Fonts](https://fonts.google.com/)
 
--   #### [**_alt-text_**](***URL***)
+-   #### [HTML Color Codes](https://htmlcolorcodes.com/)
 
--   #### [**_alt-text_**](***URL***)
+-   #### [SmolCSS](https://smolcss.dev/) by [Stephanie Eckles](https://twitter.com/5t3ph)
 
--   #### [**_alt-text_**](***URL***)
+-   #### [Just JavaScript](https://justjavascript.com/) by [Dan Abramov](https://twitter.com/dan_abramov) and [Maggie Appleton](https://maggieappleton.com/)
+
+-   #### [The Complete JavaScript Course](https://www.udemy.com/course/the-complete-javascript-course/) by [Jonas Schmedtmann](https://codingheroes.io/)
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
 
