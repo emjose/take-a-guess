@@ -41,7 +41,7 @@
 
 -   A course I enjoyed was <a href="https://justjavascript.com/">Just JavaScript</a> by <a href="https://twitter.com/dan_abramov">Dan Abramov</a> and <a href="https://maggieappleton.com/">Maggie Appleton.</a>
 -   Another course I'm enjoying is Jonas Schmedtmann's <a href="https://www.udemy.com/course/the-complete-javascript-course/">The Complete JavaScript Course</a>, which has a project about <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">DOM</a> manipulation that is the basis of this number guessing game.
--   In **Take A Guess**, users guess a number between 1 and 20, and the DOM is manipulated based on the nature of the guess.
+-   In **[Take A Guess](https://take-a-guess.vercel.app/)**, users guess a number between 1 and 20, and the DOM is manipulated based on the nature of the guess.
 
 #
 
@@ -51,13 +51,13 @@
 
 #### Git clone and cd into the repo folder:
 
-```
+```console
 git clone git@github.com:emjose/take-a-guess.git && cd take-a-guess
 ```
 
 #### Run the command:
 
-```
+```console
 open index.html
 ```
 
