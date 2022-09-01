@@ -29,6 +29,8 @@
 -   [Resources](#resources)
 -   [Let's Connect!](#lets-connect)
 
+<br>
+
 #
 
 <p id="100days"><p>
@@ -42,6 +44,8 @@
 -   A course I enjoyed was <a href="https://justjavascript.com/">Just JavaScript</a> by <a href="https://twitter.com/dan_abramov">Dan Abramov</a> and <a href="https://maggieappleton.com/">Maggie Appleton.</a>
 -   Another course I'm enjoying is Jonas Schmedtmann's <a href="https://www.udemy.com/course/the-complete-javascript-course/">The Complete JavaScript Course</a>, which has a project about <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">DOM</a> manipulation that is the basis of this number guessing game.
 -   In **[Take A Guess](https://take-a-guess.vercel.app/)**, users guess a number between 1 and 20, and the DOM is manipulated based on the nature of the guess.
+
+<br>
 
 #
 
@@ -61,6 +65,8 @@ git clone git@github.com:emjose/take-a-guess.git && cd take-a-guess
 open index.html
 ```
 
+<br>
+
 #
 
 <p id="live-site"><p>
@@ -69,9 +75,13 @@ open index.html
 
 <a href="https://take-a-guess.vercel.app/">![Live Site](Assets/030-guess.gif)</a>
 
+• **[Take A Guess](https://take-a-guess.vercel.app/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
 • The user is informed if their guess is correct or incorrect.
 
 • Correct guesses set the high score, while incorrect guesses decrease the score.
+
+<br>
 
 #
 
@@ -90,6 +100,8 @@ open index.html
 -   #### [The Complete JavaScript Course](https://www.udemy.com/course/the-complete-javascript-course/) by [Jonas Schmedtmann](https://codingheroes.io/)
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+
+<br>
 
 #
 
