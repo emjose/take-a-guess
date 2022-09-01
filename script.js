@@ -17,19 +17,19 @@ document.querySelector(".check").addEventListener("click", function () {
 	//
 	if (!guess || guess < 0) {
 		displayMessage("Invalid!");
-		document.querySelector(".message").style.color = "#f4f4ff";
+		document.querySelector(".message").style.color = "var(--gray)";
 		// First Scenario: An invalid answer is entered.
 		// Non-numbers, negative numbers, or no answers are invalid.
 		//
 	} else if (guess === secretNumber) {
 		displayMessage("Congratulations!");
 		document.querySelector(".number").textContent = secretNumber;
-		document.querySelector(".message").style.color = "#fff";
+		document.querySelector(".message").style.color = "var(--white)";
 		document.querySelector(".score").textContent = score;
-		document.querySelector("body").style.backgroundColor = "#5B048E";
-		document.querySelector(".number").style.color = "#5B048E";
-		document.querySelector("#reset").style.color = "#5B048E";
-		document.querySelector("#check").style.color = "#5B048E";
+		document.querySelector("body").style.backgroundColor = "var(--purple)";
+		document.querySelector(".number").style.color = "var(--purple)";
+		document.querySelector("#reset").style.color = "var(--purple)";
+		document.querySelector("#check").style.color = "var(--purple)";
 		document.querySelector("h1").textContent = "You Guessed It!";
 		if (score > highscore) {
 			highscore = score;
@@ -63,9 +63,9 @@ document.querySelector(".again").addEventListener("click", function () {
 	document.querySelector(".number").textContent = "?";
 	document.querySelector(".guess").value = "";
 	document.querySelector("h1").textContent = "Take A Guess!";
-	document.querySelector("body").style.backgroundColor = "#1d2746";
-	document.querySelector(".number").style.color = "#1d2746";
-	document.querySelector("#reset").style.color = "#1d2746";
-	document.querySelector("#check").style.color = "#1d2746";
+	document.querySelector("body").style.backgroundColor = "var(--blue)";
+	document.querySelector(".number").style.color = "var(--blue)";
+	document.querySelector("#reset").style.color = "var(--blue)";
+	document.querySelector("#check").style.color = "var(--blue)";
 	// Refactor needed: Look into why querySelectorAll() was not working.
 });
